@@ -1,0 +1,142 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 1 (Organic & Earthy) blended with Gen Z Bold accents",
+  "design_philosophy": {
+    "emotion": "Approachable, energetic, trustworthy, and heavily eco-conscious.",
+    "concept": "Modern & Minimal combined with Bold & Vibrant. We are fusing the calm, grounding nature of sustainable earth tones with the electric, disruptive energy of Gen Z thrifting and barter economy.",
+    "key_principles": [
+      "Negative Space: Use generous padding (p-8, p-12) to let the products breathe.",
+      "Contrast: Pair deep forest greens and earth tones with electric lime for CTA impact.",
+      "Typography as Art: Use bold, tightly tracked sans-serif headers (Cabinet Grotesk/Clash Display) against simple, legible body text.",
+      "Bento Grids: Utilize asymmetric grids for the marketplace discovery and swap calculator sections."
+    ]
+  },
+  "colors": {
+    "background": {
+      "default": "#F7F6F2",
+      "surface": "#FFFFFF",
+      "surface_alt": "#EBE8DF"
+    },
+    "text": {
+      "primary": "#171A18",
+      "secondary": "#58605A",
+      "disabled": "#A4ACA6"
+    },
+    "primary": {
+      "default": "#24402E",
+      "hover": "#1A2E21",
+      "foreground": "#FFFFFF"
+    },
+    "accent": {
+      "lime": "#C2FF41",
+      "lime_hover": "#A8E52A",
+      "lime_foreground": "#171A18",
+      "terracotta": "#DE6B48",
+      "terracotta_hover": "#C55B3A"
+    },
+    "status": {
+      "success": "#2E7D32",
+      "warning": "#F57C00",
+      "error": "#D32F2F",
+      "info": "#0288D1"
+    },
+    "border": "#DCD9CE"
+  },
+  "typography": {
+    "fonts": {
+      "headings": "'Cabinet Grotesk', 'Clash Display', sans-serif",
+      "body": "'Manrope', 'Inter', sans-serif",
+      "mono": "'JetBrains Mono', monospace"
+    },
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tighter font-black leading-none",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-bold leading-tight",
+      "h3": "text-xl sm:text-2xl tracking-tight font-semibold",
+      "h4": "text-lg font-semibold",
+      "body": "text-base font-normal leading-relaxed",
+      "label": "text-xs font-bold uppercase tracking-[0.2em]"
+    }
+  },
+  "layout_and_spacing": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6 lg:gap-8",
+    "spacing_scale": "Generous. Use p-6, p-8, p-12 for distinct content blocks.",
+    "border_radius": "rounded-2xl for main cards, rounded-full for buttons and badges to soften the brutalist typography."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#C2FF41] text-[#171A18] hover:bg-[#A8E52A] rounded-full font-bold px-6 py-3 transition-transform hover:-translate-y-0.5 shadow-sm",
+      "secondary": "bg-[#24402E] text-white hover:bg-[#1A2E21] rounded-full font-semibold px-6 py-3 transition-transform hover:-translate-y-0.5",
+      "outline": "border-2 border-[#24402E] text-[#24402E] rounded-full font-semibold px-6 py-3 hover:bg-[#24402E] hover:text-white transition-colors"
+    },
+    "cards": {
+      "product": "bg-white rounded-2xl p-4 border border-[#DCD9CE] hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] transition-all group",
+      "bento": "bg-white rounded-3xl p-8 border border-[#DCD9CE]"
+    },
+    "navigation": {
+      "header": "sticky top-0 z-50 backdrop-blur-xl bg-[#F7F6F2]/80 border-b border-[#DCD9CE]/50 py-4"
+    },
+    "chat": {
+      "bubble_received": "bg-white border border-[#DCD9CE] rounded-2xl rounded-tl-sm p-4 text-[#171A18]",
+      "bubble_sent": "bg-[#24402E] text-white rounded-2xl rounded-tr-sm p-4"
+    },
+    "badges": {
+      "sustainable": "bg-[#C2FF41]/20 text-[#24402E] text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full",
+      "value_score": "bg-[#DE6B48] text-white text-xs font-bold px-2 py-1 rounded-lg"
+    }
+  },
+  "media_urls": {
+    "hero": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/36f04dd2-9720-4e7d-b24e-6bfccd641e74/images/9d90af3563d8d5cd251f046849762ce60628c56183d84623320cfab3e0596de6.png",
+      "description": "Dynamic, vibrant Gen Z sustainable fashion hero banner",
+      "usage": "Landing page hero section"
+    },
+    "abstract_background": {
+      "url": "https://static.prod-images.emergentagent.com/jobs/36f04dd2-9720-4e7d-b24e-6bfccd641e74/images/46089071667e6bb41c62ed56a108ac36b8d4a3f29ba26fc698f8569bae207e9f.png",
+      "description": "3D claymorphism abstract eco shapes",
+      "usage": "Background texture for swap calculator or CTA section"
+    },
+    "community_lifestyle": {
+      "url": "https://images.unsplash.com/photo-1591955156780-ce3a7b8a257b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHwxfHxnZW4lMjB6JTIwZnJpZW5kcyUyMGhvbGRpbmclMjBjbG90aGVzJTIwaGFwcHl8ZW58MHx8fHwxNzc4OTg5MzEyfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Gen Z friends with clothes",
+      "usage": "About us or 'How it works' section"
+    },
+    "product_vintage_rack": {
+      "url": "https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwzfHx2aW50YWdlJTIwY2xvdGhpbmclMjByYWNrJTIwZmFzaGlvbnxlbnwwfHx8fDE3Nzg5ODkzMTJ8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Vintage clothing rack",
+      "usage": "Category placeholder / Discover section"
+    },
+    "product_flatlay": {
+      "url": "https://images.unsplash.com/photo-1632469188022-b5db09a70fbc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwzfHxzdXN0YWluYWJsZSUyMGZhc2hpb24lMjBjbG90aGluZyUyMGZsYXRsYXl8ZW58MHx8fHwxNzc4OTg5MzEyfDA&ixlib=rb-4.1.0&q=85",
+      "description": "Sustainable fashion flatlay",
+      "usage": "Sample clothing item listing image"
+    }
+  },
+  "icons": {
+    "library": "lucide-react",
+    "style": "Clean, line-based icons. Use stroke-width: 2. For dense marketplace filters, ensure icons are minimal."
+  },
+  "animations": {
+    "library": "framer-motion",
+    "usage": [
+      "Hover states on product cards: image zoom (scale: 1.05) combined with subtle translateY.",
+      "Staggered entrance for bento grid items and product listings.",
+      "Page transitions: soft fade and slide up.",
+      "Chat messages: Spring animation on appear."
+    ]
+  },
+  "testing": {
+    "rules": "All interactive elements (buttons, inputs, links, forms, chat send button, swap request actions) MUST include data-testid attributes formatted in kebab-case representing their role."
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: framer-motion, lucide-react.",
+    "Use pure HTML+Tailwind for Landing Page custom bento sections; DO NOT restrict yourself to Shadcn rigid cards here.",
+    "For the Swap Value Calculator Widget, use the bento card style. Pair the AI estimation logic with a clean loading skeleton state.",
+    "Apply 'Generous Spacing Philosophy'. Do not cramp elements. If you use standard Shadcn inputs, wrap them in padded containers.",
+    "For the Real-time Chat page, use the 'Control Room' dense grid approach (sidebar for chat list, main area for chat window). Ensure clear hierarchy.",
+    "The Hero Section should feature the `hero` image with an overlay of NO MORE THAN bg-white/20 if using light text, or rely on negative space if positioning text outside the image.",
+    "NEVER use generic placeholder image URLs (like via.placeholder). ONLY use the media URLs provided in this JSON.",
+    "Ensure all buttons use the color/contrast specified. Electric Lime (#C2FF41) must have dark text (#171A18) for accessibility."
+  ]
+}
+

@@ -1,0 +1,54 @@
+/* SwapWear App Global Styles */
+.App {
+  min-height: 100vh;
+  background-color: #F7F6F2;
+}
+
+/* Page transition wrapper */
+.page-enter {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Skeleton loader */
+.skeleton {
+  background: linear-gradient(90deg, #EBE8DF 25%, #F7F6F2 50%, #EBE8DF 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 0.5rem;
+}
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Lime glow on CTA */
+.lime-glow {
+  box-shadow: 0 0 20px rgba(194, 255, 65, 0.4);
+}
+.lime-glow:hover {
+  box-shadow: 0 0 30px rgba(194, 255, 65, 0.6);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #24402E 0%, #C2FF41 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Card hover animation */
+@keyframes float-up {
+  from { transform: translateY(0); }
+  to { transform: translateY(-4px); }
+}
+
+/* Scrollbar hide */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
