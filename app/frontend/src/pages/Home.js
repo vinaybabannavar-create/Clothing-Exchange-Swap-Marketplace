@@ -185,7 +185,7 @@ export default function Home() {
             </div>
             <span className="font-heading font-bold text-[#171A18]">SwapWear</span>
           </div>
-          <p className="text-[#A4ACA6] text-sm">© 2025 SwapWear. Sustainable fashion for everyone.</p>
+          <p className="text-[#A4ACA6] text-sm">© 2026 SwapWear. Sustainable fashion for everyone.</p>
           <div className="flex gap-5 text-sm text-[#58605A]">
             <Link to="/browse" className="hover:text-[#24402E]">Browse</Link>
             <Link to="/auth" className="hover:text-[#24402E]">Sign Up</Link>
